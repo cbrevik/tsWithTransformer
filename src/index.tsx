@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
-import Button from './Button';
+import Button from './components/Button';
 import Logger from './lib/Logger';
 
 export default class App extends Component<{}, {}> {
