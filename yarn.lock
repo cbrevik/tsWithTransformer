@@ -3166,9 +3166,9 @@ react-devtools-core@^2.1.8:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
-react-native-typescript-transformer@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/react-native-typescript-transformer/-/react-native-typescript-transformer-1.0.1.tgz#6a859a8d871dfa34e4f0a9b2c6f2d893ad97c5d8"
+react-native-typescript-transformer@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/react-native-typescript-transformer/-/react-native-typescript-transformer-1.0.3.tgz#f47784c975f86a01288ee8500b5d733528a4c91c"
   dependencies:
     app-root-path "^2.0.1"
     husky "^0.13.3"
