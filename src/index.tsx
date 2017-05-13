@@ -1,11 +1,20 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
-import AppContainer from './containers/AppContainer';
+import Button from './Button';
+import Logger from './lib/Logger';
 
 export default class App extends Component<{}, {}> {
+    onButtonPress() {
+        console.log("Button pressed!");
+        Logger.log("Button pressed");
+    }
+
     render() {
         return (
-            <AppContainer />
+            <View style={{ flex: 1 }}>
+                <Text>Hello TypeScript</Text>
+                <Button text="Hello button" onPress={this.onButtonPress} />
+            </View>
         );
     }
 }
