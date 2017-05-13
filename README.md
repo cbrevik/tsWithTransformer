@@ -7,4 +7,4 @@ Using [react-native-typescript-transformer](https://github.com/ds300/react-nativ
 Bugs:
 
 - Major: importing `bugsnag-react-native` results in white screen in app
-- Minor: imported `bugsnag-react-native` gives `[ts] Cannot find module 'bugsnag-react-native'.` intellisense error in VSCode. Compilation works fine though.
+- Minor: imported `bugsnag-react-native` gives `[ts] Cannot find module 'bugsnag-react-native'.` intellisense error in VSCode. Compilation works fine though. (Possibly solved by using `"module": "commonjs"` in tsconfig)
