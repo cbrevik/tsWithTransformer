@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
+import Button from '../components/Button';
+import Logger from '../lib/Logger';
 
-import Button from './button';
-
-export default class App extends Component<{}, {}> {
+export default class AppContainer extends Component<{}, {}> {
     onButtonPress() {
         console.log("Button pressed!");
+        Logger.log("Button pressed");
     }
 
     render() {

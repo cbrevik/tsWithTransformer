@@ -8,7 +8,6 @@ interface Props {
 
 export default class Button extends Component<Props, {}> {
     render() {
-
         return (
             <TouchableHighlight onPress={this.props.onPress}>
                 <Text>{this.props.text}</Text>

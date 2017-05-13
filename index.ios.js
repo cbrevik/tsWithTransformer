@@ -6,7 +6,7 @@ import {
   View
 } from 'react-native';
 
-import App from './src/app';
+import App from './src';
 
 export default class tsWithTransformer extends Component {
   render() {
